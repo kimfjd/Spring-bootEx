@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - MemberRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>MemberRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.kh.totalEx.repository.html">com.kh.totalEx.repository</a> &gt; MemberRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.157s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">로그인 여부 출력 테스트</td>
+<td class="success">loginTest()</td>
+<td class="success">1.157s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>16:57:24.305 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:57:24.325 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:57:24.377 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kh.totalEx.repository.MemberRepositoryTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+16:57:24.394 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kh.totalEx.repository.MemberRepositoryTest], using SpringBootContextLoader
+16:57:24.403 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kh.totalEx.repository.MemberRepositoryTest]: class path resource [com/kh/totalEx/repository/MemberRepositoryTest-context.xml] does not exist
+16:57:24.404 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kh.totalEx.repository.MemberRepositoryTest]: class path resource [com/kh/totalEx/repository/MemberRepositoryTestContext.groovy] does not exist
+16:57:24.405 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kh.totalEx.repository.MemberRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:57:24.406 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kh.totalEx.repository.MemberRepositoryTest]: MemberRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:57:24.505 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.kh.totalEx.repository.MemberRepositoryTest]
+16:57:24.623 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\82102\dev\totalEx\build\classes\java\main\com\kh\totalEx\TotalExApplication.class]
+16:57:24.625 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kh.totalEx.TotalExApplication for test class com.kh.totalEx.repository.MemberRepositoryTest
+16:57:24.822 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kh.totalEx.repository.MemberRepositoryTest]: using defaults.
+16:57:24.824 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+16:57:24.852 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3d526ad9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@e041f0c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6a175569, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@11963225, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3f3c966c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@11ee02f8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4102b1b1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@61a5b4ae, org.springframework.test.context.event.EventPublishingTestExecutionListener@3a71c100, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5b69fd74, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@f325091, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@437e951d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@77b325b3, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@63a5e46c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7e8e8651]
+16:57:24.859 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3b65e559 testClass = MemberRepositoryTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@bae47a0 testClass = MemberRepositoryTest, locations = '{}', classes = '{class com.kh.totalEx.TotalExApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:application-test.properties}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@6f2cb653, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1d8062d2, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@295eaa7c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@47605f2f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1eb6749b, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@748741cb], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.17)
+
+2024-06-04 16:57:25.559  INFO 60412 --- [    Test worker] c.k.t.repository.MemberRepositoryTest    : Starting MemberRepositoryTest using Java 11.0.22 on 고로케맛쿠키 with PID 60412 (started by 82102 in C:\Users\82102\dev\totalEx)
+2024-06-04 16:57:25.563  INFO 60412 --- [    Test worker] c.k.t.repository.MemberRepositoryTest    : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-06-04 16:57:26.867  INFO 60412 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-04 16:57:26.976  INFO 60412 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 3 JPA repository interfaces.
+2024-06-04 16:57:28.180  INFO 60412 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-04 16:57:28.322  INFO 60412 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-06-04 16:57:28.697  INFO 60412 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-04 16:57:28.921  INFO 60412 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-04 16:57:29.942  INFO 60412 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-04 16:57:29.988  INFO 60412 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Hibernate: 
+    
+    drop table if exists board
+Hibernate: 
+    
+    drop table if exists hibernate_sequence
+Hibernate: 
+    
+    drop table if exists item
+Hibernate: 
+    
+    drop table if exists member
+Hibernate: 
+    
+    create table board (
+       board_id bigint not null,
+        content longtext,
+        img_path varchar(255),
+        reg_date datetime(6),
+        title varchar(255),
+        primary key (board_id)
+    ) engine=InnoDB
+Hibernate: 
+    
+    create table hibernate_sequence (
+       next_val bigint
+    ) engine=InnoDB
+Hibernate: 
+    
+    insert into hibernate_sequence values ( 1 )
+Hibernate: 
+    
+    create table item (
+       idem_id bigint not null,
+        item_detail longtext not null,
+        item_nm varchar(50) not null,
+        item_sell_status varchar(255),
+        price integer not null,
+        reg_time datetime(6),
+        stock_number integer not null,
+        update_time datetime(6),
+        primary key (idem_id)
+    ) engine=InnoDB
+Hibernate: 
+    
+    create table member (
+       member_id bigint not null,
+        email varchar(255),
+        iamge varchar(255),
+        name varchar(255),
+        pwd varchar(255),
+        reg_date datetime(6),
+        primary key (member_id)
+    ) engine=InnoDB
+Hibernate: 
+    
+    alter table member 
+       add constraint UK_mbmcqelty0fbrvxp1q58dn57t unique (email)
+2024-06-04 16:57:31.695  INFO 60412 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-04 16:57:31.711  INFO 60412 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04 16:57:32.120  WARN 60412 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-04 16:57:34.336  INFO 60412 --- [    Test worker] c.k.t.repository.MemberRepositoryTest    : Started MemberRepositoryTest in 9.417 seconds (JVM running for 14.618)
+Hibernate: 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+Hibernate: 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+Hibernate: 
+    insert 
+    into
+        member
+        (email, iamge, name, pwd, reg_date, member_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-06-04 16:57:34.916 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [1]
+2024-06-04 16:57:34.917 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [null]
+2024-06-04 16:57:34.917 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [1]
+2024-06-04 16:57:34.918 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [1]
+2024-06-04 16:57:34.919 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [2024-06-04T16:57:34.732881500]
+2024-06-04 16:57:34.922 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [BIGINT] - [1]
+Hibernate: 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+Hibernate: 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+Hibernate: 
+    insert 
+    into
+        member
+        (email, iamge, name, pwd, reg_date, member_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-06-04 16:57:34.970 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [2]
+2024-06-04 16:57:34.971 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [null]
+2024-06-04 16:57:34.972 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [3]
+2024-06-04 16:57:34.972 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [2]
+2024-06-04 16:57:34.973 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [2024-06-04T16:57:34.942303600]
+2024-06-04 16:57:34.973 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [BIGINT] - [2]
+Hibernate: 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+Hibernate: 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+Hibernate: 
+    insert 
+    into
+        member
+        (email, iamge, name, pwd, reg_date, member_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-06-04 16:57:34.993 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [3]
+2024-06-04 16:57:34.993 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [null]
+2024-06-04 16:57:34.993 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [5]
+2024-06-04 16:57:34.993 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [3]
+2024-06-04 16:57:34.994 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [2024-06-04T16:57:34.981309100]
+2024-06-04 16:57:34.994 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [BIGINT] - [3]
+Hibernate: 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+Hibernate: 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+Hibernate: 
+    insert 
+    into
+        member
+        (email, iamge, name, pwd, reg_date, member_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-06-04 16:57:35.035 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [4]
+2024-06-04 16:57:35.036 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [null]
+2024-06-04 16:57:35.036 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [7]
+2024-06-04 16:57:35.037 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [4]
+2024-06-04 16:57:35.041 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [2024-06-04T16:57:35.009314700]
+2024-06-04 16:57:35.043 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [BIGINT] - [4]
+Hibernate: 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+Hibernate: 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+Hibernate: 
+    insert 
+    into
+        member
+        (email, iamge, name, pwd, reg_date, member_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-06-04 16:57:35.070 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [5]
+2024-06-04 16:57:35.070 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [null]
+2024-06-04 16:57:35.070 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [5]
+2024-06-04 16:57:35.070 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [5]
+2024-06-04 16:57:35.071 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [2024-06-04T16:57:35.057859900]
+2024-06-04 16:57:35.071 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [BIGINT] - [5]
+Hibernate: 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+Hibernate: 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+Hibernate: 
+    insert 
+    into
+        member
+        (email, iamge, name, pwd, reg_date, member_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-06-04 16:57:35.101 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [6]
+2024-06-04 16:57:35.103 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [null]
+2024-06-04 16:57:35.107 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [3]
+2024-06-04 16:57:35.108 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [6]
+2024-06-04 16:57:35.108 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [2024-06-04T16:57:35.080248700]
+2024-06-04 16:57:35.108 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [BIGINT] - [6]
+Hibernate: 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+Hibernate: 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+Hibernate: 
+    insert 
+    into
+        member
+        (email, iamge, name, pwd, reg_date, member_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-06-04 16:57:35.131 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [7]
+2024-06-04 16:57:35.131 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [null]
+2024-06-04 16:57:35.132 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [6]
+2024-06-04 16:57:35.132 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [7]
+2024-06-04 16:57:35.133 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [2024-06-04T16:57:35.119728500]
+2024-06-04 16:57:35.133 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [BIGINT] - [7]
+Hibernate: 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+Hibernate: 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+Hibernate: 
+    insert 
+    into
+        member
+        (email, iamge, name, pwd, reg_date, member_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-06-04 16:57:35.153 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [8]
+2024-06-04 16:57:35.153 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [null]
+2024-06-04 16:57:35.153 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [2]
+2024-06-04 16:57:35.153 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [8]
+2024-06-04 16:57:35.153 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [2024-06-04T16:57:35.139393100]
+2024-06-04 16:57:35.156 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [BIGINT] - [8]
+Hibernate: 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+Hibernate: 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+Hibernate: 
+    insert 
+    into
+        member
+        (email, iamge, name, pwd, reg_date, member_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-06-04 16:57:35.175 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [9]
+2024-06-04 16:57:35.175 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [null]
+2024-06-04 16:57:35.175 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [8]
+2024-06-04 16:57:35.176 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [9]
+2024-06-04 16:57:35.176 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [2024-06-04T16:57:35.164389500]
+2024-06-04 16:57:35.176 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [BIGINT] - [9]
+Hibernate: 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+Hibernate: 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+Hibernate: 
+    insert 
+    into
+        member
+        (email, iamge, name, pwd, reg_date, member_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2024-06-04 16:57:35.189 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [10]
+2024-06-04 16:57:35.189 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [null]
+2024-06-04 16:57:35.190 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [3]
+2024-06-04 16:57:35.190 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [10]
+2024-06-04 16:57:35.190 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [2024-06-04T16:57:35.180527600]
+2024-06-04 16:57:35.191 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [BIGINT] - [10]
+Hibernate: 
+    select
+        member0_.member_id as member_i1_2_,
+        member0_.email as email2_2_,
+        member0_.iamge as iamge3_2_,
+        member0_.name as name4_2_,
+        member0_.pwd as pwd5_2_,
+        member0_.reg_date as reg_date6_2_ 
+    from
+        member member0_ 
+    where
+        member0_.email=? 
+        and member0_.pwd=?
+2024-06-04 16:57:35.464 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [1]
+2024-06-04 16:57:35.466 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [1]
+2024-06-04 16:57:35.475 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([member_i1_2_] : [BIGINT]) - [1]
+2024-06-04 16:57:35.479 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([email2_2_] : [VARCHAR]) - [1]
+2024-06-04 16:57:35.479 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([iamge3_2_] : [VARCHAR]) - [null]
+2024-06-04 16:57:35.479 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_2_] : [VARCHAR]) - [1]
+2024-06-04 16:57:35.480 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([pwd5_2_] : [VARCHAR]) - [1]
+2024-06-04 16:57:35.481 TRACE 60412 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([reg_date6_2_] : [TIMESTAMP]) - [2024-06-04T16:57:34.732882]
+Optional[Member(id=1, name=1, pwd=1, email=1, iamge=null, regDate=2024-06-04T16:57:34.732882)]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.7</a> at 2024. 6. 4. 오후 4:57:35</p>
+</div>
+</div>
+</body>
+</html>
