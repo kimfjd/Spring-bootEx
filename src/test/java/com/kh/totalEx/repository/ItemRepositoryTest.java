@@ -2,6 +2,7 @@ package com.kh.totalEx.repository;
 
 import com.kh.totalEx.constant.ItemSellStatus;
 import com.kh.totalEx.entity.Item;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,7 @@ import java.util.List;
 import static org.hibernate.tool.schema.SchemaToolingLogging.LOGGER;
 import static org.junit.jupiter.api.Assertions.*;
 
+@Slf4j
 @SpringBootTest
 @TestPropertySource(locations = "classpath:application-test.properties")
 class ItemRepositoryTest {
@@ -75,14 +77,23 @@ class ItemRepositoryTest {
 //        }
 //    }
 
+//    @Test
+//    @DisplayName("키워드 검색 테스트")
+//    public void findByItemNmContainingTest() {
+//        this.createItemTest();
+//        List<Item> itemList = itemRepository.findByItemNmContaining("상품1");
+//        for (Item item : itemList) {
+//            System.out.println(item.toString());
+//        }
+//    }
     @Test
-    @DisplayName("키워드 검색 테스트")
-    public void findByItemNmContainingTest() {
+    @DisplayName("@Query를 이용한 검색 기능 구현")
+    public void findByItemDetailTest(){
         this.createItemTest();
-        List<Item> itemList = itemRepository.findByItemNmContaining("상품1");
-        for (Item item : itemList) {
-            System.out.println(item.toString());
-        }
-
+        List<Item> itemList = itemRepository.findByItemDetailByNative("테스트 상품");
+        for(Item e: itemList) System.out.println(e.toString());
     }
+
+
+
 }
