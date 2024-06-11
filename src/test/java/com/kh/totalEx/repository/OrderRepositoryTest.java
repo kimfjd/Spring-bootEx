@@ -31,6 +31,8 @@ class OrderRepositoryTest {
 
     @Autowired
     MemberRepository memberRepository;
+    @Autowired
+    OrderItemRepository orderItemRepository;
 
     public Item createItem(){
         Item item = new Item();
@@ -90,5 +92,15 @@ class OrderRepositoryTest {
         log.info(String.valueOf(order.getOrderItemList().size()));
         order.getOrderItemList().remove(0);
         em.flush();;
+    }
+    @Test
+    @DisplayName("지연로딩 테스트")
+    public void lazyLoadingTest(){
+        Order order = this.createOrder();
+        Long orderItemId= order.getOrderItemList().get(0).getId();
+        em.flush();
+        em.clear();
+        OrderItem orderItem=orderItemRepository.findById(orderItemId).orElseThrow(EntityNotFoundException::new);
+        System.out.println("Order class : " + orderItem.getOrder().getClass());
     }
 }
